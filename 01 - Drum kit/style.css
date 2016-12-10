@@ -28,6 +28,12 @@ body {
   border-radius: 10px;
   border: 3px solid #000;
   text-align: center;
+  transition: all 0.2s;
+}
+
+.key.play {
+  border-color: yellow;
+  transform: scale(1.2) translateY(-15px);
 }
 
 .key kbd {
@@ -41,8 +47,4 @@ body {
   color: yellow;
   text-transform: uppercase;
   font-size: 11px;
-}
-
-.key.play {
-  border-color: yellow;
 }
