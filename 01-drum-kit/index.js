@@ -19,10 +19,7 @@ window.addEventListener('load', () => {
 
   const keys = document.querySelectorAll('.key');
   
-  [].forEach.call(keys, (key) => {
-    key.addEventListener('transitionend', transitionendHandler);
-    key.addEventListener('click', transitionendHandler);
-  });
+  [].forEach.call(keys, (key) => key.addEventListener('transitionend', transitionendHandler));
   
   window.addEventListener('keydown', keydownHandler);
 });
